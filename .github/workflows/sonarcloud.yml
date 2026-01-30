@@ -3,10 +3,10 @@ name: SonarCloud
 on:
   push:
     branches:
-      - master
+      - mejoras-calidad
   pull_request:
     branches:
-      - master
+      - mejoras-calidad
 
 jobs:
   build:
